@@ -5,12 +5,12 @@ require "jets/version"
 require "jets/rdoc"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jets"
+  spec.name          = "jets.benforeva"
   spec.version       = Jets::VERSION
-  spec.author        = "Tung Nguyen"
+  spec.authors       = ["Tung Nguyen", "Andre Dickson"]
   spec.email         = "tongueroo@gmail.com"
   spec.summary       = "Ruby Serverless Framework"
-  spec.description   = "Jets is a framework that allows you to create serverless applications with a beautiful language: Ruby. It includes everything required to build and deploy an application.  Jets leverages the power of Ruby to make serverless joyful for everyone."
+  spec.description   = "This is a fix for mounted rack apps. It resets the gem to an inbetween commit between 3.0.17 and 3.0.18. Jets is a framework that allows you to create serverless applications with a beautiful language: Ruby. It includes everything required to build and deploy an application.  Jets leverages the power of Ruby to make serverless joyful for everyone."
   spec.homepage      = "https://rubyonjets.com"
   spec.license       = "MIT"
 
